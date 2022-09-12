@@ -1,0 +1,30 @@
+.section {
+    border: dashed black;
+    width: 250px;
+    height: 310px;
+}
+
+.block {
+    text-align: center;
+
+}
+
+
+.photo {
+    border: dashed tomato;
+
+    width: 160px;
+    height: 150px;
+    margin-top: 5px;
+}
+
+.h {
+    border: dashed darkcyan;
+    margin: 20px;
+}
+
+
+.paragraph {
+    border: dashed blue;
+    margin: 7px;
+}
