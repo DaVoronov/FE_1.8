@@ -1,0 +1,36 @@
+body {
+    padding: 200px;
+    display: block;
+}
+
+
+
+.block1 {
+    background: coral;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    bottom: 100px;
+    z-index: 1;
+    
+}
+
+.block2 {
+    background-color: rgb(106, 106, 253);
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 175px;
+    left: 270px;
+    z-index: 2;
+}
+
+.block3 {
+    background-color: chartreuse;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    bottom: 70px;
+    left: 120px;
+    z-index: 1;
+}
