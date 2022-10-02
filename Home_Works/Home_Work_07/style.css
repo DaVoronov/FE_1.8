@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.list-item {
+    margin: px 0;
+}
