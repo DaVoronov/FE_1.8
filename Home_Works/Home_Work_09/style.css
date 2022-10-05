@@ -1,0 +1,170 @@
+a{
+    text-decoration: none;
+    color: #FED136;
+}
+
+p{
+    font-family: 'Montserrat';
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+body, html{
+    width: 100%;
+    min-height: 100%;
+}
+
+.wrapper{
+    max-width: 1400px;
+    height: 1318px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 44px;
+    width: 933px;
+    min-height: 39px;
+    margin: 0 auto;
+}
+
+.header .logo{
+    font-family: 'Bilbo Swash Caps';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 41px;
+}
+
+
+
+
+.menu .menu-list{
+    display: flex;
+    justify-content: space-between;
+    width: 480px;
+}
+
+.menu .menu-list .menu-list-item{
+    list-style-type: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 41px;
+}
+
+.menu .menu-list .menu-list-item:not(:last-child) {
+    margin-right: 10;
+}
+
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+    
+    
+}
+
+.block {
+    justify-content: space-around;
+    position: relative;
+}
+
+
+.title{
+    text-align: center;
+    margin-top: 108px;
+    font-family: 'Montserrat';
+}
+
+.block {
+    display: flex;
+    
+}
+
+.service-content{
+    padding-top: 88px;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-items: end;
+}
+
+.service-content-item{
+    
+    display: flex;
+    width: 360px;
+    text-align: center;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    margin: 50px;
+}
+
+
+
+.input {
+    
+    background-color: #222222;
+    width: 1404px;
+    height: 679px;
+
+}
+
+.title-2 {
+    font-family: 'Montserrat';
+    color: #FFFFFF;
+    font-weight: 700;
+    size: 40px;
+    text-align: center;
+    padding-top: 92px;
+}
+
+input {
+    width: 455px;
+    height: 50px;
+
+}
+
+.foot {
+    flex-direction: row;
+    margin: 233px;
+    align-items: flex-start;
+}
+
+.text {
+    margin: 28px;
+}
+
+.area {
+    width: 458px;
+    height: 212px;
+    left: 484px;
+    resize: none;
+    position: relative;
+    bottom: 264px;
+}
+
+ .button {
+    background-color: #FED136;
+    position: relative;
+    width: 242px;
+    height: 68px;
+    bottom: 235px;
+    right: 165px;
+    font-family: 'Montserrat';
+    font-size: 700;
+}
+
+::placeholder {
+    font-family: 'Montserrat';
+}
